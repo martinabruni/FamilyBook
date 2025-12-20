@@ -1,0 +1,42 @@
+# Visual Studio
+bin/
+obj/
+*.user
+*.suo
+*.tmp
+*.log
+
+# VSCode
+.vscode/
+
+# Terraform
+.terraform/
+terraform.tfstate*
+*.tfstate*
+
+# .NET
+[Bb]in/
+[Oo]bj/
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.svcmap
+
+# OS
+.DS_Store
+Thumbs.db
