@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Apis\Family.Book.Apis.Functions\Family.Book.Apis.Functions.csproj" />
+    <ProjectReference Include="..\..\Apis\FamilyBook.Function\FamilyBook.Function.csproj" />
   </ItemGroup>
 
 </Project>

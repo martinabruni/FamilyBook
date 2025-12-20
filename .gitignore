@@ -5,6 +5,7 @@ obj/
 *.suo
 *.tmp
 *.log
+.vs/
 
 # VSCode
 .vscode/

@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CEA09484
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Family.Book.Tests", "src\Tests\Family.Book.Tests\Family.Book.Tests.csproj", "{3928E63E-A34C-48EC-BC7E-FE27CCEDC2E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Family.Book.Apis.Functions", "src\Apis\Family.Book.Apis.Functions\Family.Book.Apis.Functions.csproj", "{B49EAC56-1F53-4E1A-9F52-8058C505DA80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyBook.Function", "src\Apis\FamilyBook.Function\FamilyBook.Function.csproj", "{B49EAC56-1F53-4E1A-9F52-8058C505DA80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
