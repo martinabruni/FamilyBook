@@ -1,3 +1,4 @@
+using FamilyBook.Domain.Models;
 using FluentValidation;
 
 namespace FamilyBook.Business.Validators;
