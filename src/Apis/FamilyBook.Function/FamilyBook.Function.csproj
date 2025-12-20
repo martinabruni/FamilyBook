@@ -16,7 +16,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Domains\Family.Book.Domain\Family.Book.Domain.csproj" />
-    <ProjectReference Include="..\..\Businesses\Family.Book.Business\Family.Book.Business.csproj" />
+    <ProjectReference Include="..\..\Domains\FamilyBook.Domain\FamilyBook.Domain.csproj" />
+    <ProjectReference Include="..\..\Businesses\FamilyBook.Business\FamilyBook.Business.csproj" />
   </ItemGroup>
 </Project>

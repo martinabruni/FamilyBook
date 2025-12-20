@@ -1,4 +1,4 @@
-namespace Family.Book.Tests;
+namespace FamilyBook.Tests;
 
 public class UnitTest1
 {

@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Family.Book.Apis.Functions": {
+    "FamilyBook.Apis.Functions": {
       "commandName": "Project",
       "commandLineArgs": "--port 7233",
       "launchBrowser": false

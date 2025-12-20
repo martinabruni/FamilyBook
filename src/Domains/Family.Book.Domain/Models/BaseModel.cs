@@ -1,4 +1,4 @@
-namespace Family.Book.Domain.Models;
+namespace FamilyBook.Domain.Models;
 
 public abstract class BaseModel
 {

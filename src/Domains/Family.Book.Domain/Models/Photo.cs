@@ -1,6 +1,6 @@
-using static Family.Book.Domain.Enums;
+using static FamilyBook.Domain.Enums;
 
-namespace Family.Book.Domain.Models;
+namespace FamilyBook.Domain.Models;
 
 /// <summary>
 /// Represents a photo entity.

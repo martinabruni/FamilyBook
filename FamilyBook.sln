@@ -9,19 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{2B3BBCB9-5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{55B8E2B3-FCE6-896E-E028-E6393D6A9606}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Family.Book.Domain", "src\Domains\Family.Book.Domain\Family.Book.Domain.csproj", "{9FE0114C-4A32-4E74-8BE6-2FBFCA6E0A72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyBook.Domain", "src\Domains\FamilyBook.Domain\FamilyBook.Domain.csproj", "{9FE0114C-4A32-4E74-8BE6-2FBFCA6E0A72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Businesses", "Businesses", "{5E33EDAE-70FF-3AD7-AF2C-6C7981E4C0B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Family.Book.Business", "src\Businesses\Family.Book.Business\Family.Book.Business.csproj", "{A30EEDE4-971D-49C8-99EF-697ACE051ED0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyBook.Business", "src\Businesses\FamilyBook.Business\FamilyBook.Business.csproj", "{A30EEDE4-971D-49C8-99EF-697ACE051ED0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructures", "Infrastructures", "{704FE57B-DEE1-0577-4379-C11B895E77D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Family.Book.Infrastructure", "src\Infrastructures\Family.Book.Infrastructure\Family.Book.Infrastructure.csproj", "{C9A7EA44-E85E-4EEF-B322-B9D9F1DD8739}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyBook.Infrastructure", "src\Infrastructures\FamilyBook.Infrastructure\FamilyBook.Infrastructure.csproj", "{C9A7EA44-E85E-4EEF-B322-B9D9F1DD8739}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CEA09484-30F6-4D44-02F6-822E06DBC57C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Family.Book.Tests", "src\Tests\Family.Book.Tests\Family.Book.Tests.csproj", "{3928E63E-A34C-48EC-BC7E-FE27CCEDC2E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyBook.Tests", "src\Tests\FamilyBook.Tests\FamilyBook.Tests.csproj", "{3928E63E-A34C-48EC-BC7E-FE27CCEDC2E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyBook.Function", "src\Apis\FamilyBook.Function\FamilyBook.Function.csproj", "{B49EAC56-1F53-4E1A-9F52-8058C505DA80}"
 EndProject

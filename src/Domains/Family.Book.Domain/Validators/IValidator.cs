@@ -1,4 +1,4 @@
-namespace Family.Book.Domain.Validators;
+namespace FamilyBook.Domain.Validators;
 
 public interface IValidator<T> where T : class
 {

@@ -1,4 +1,4 @@
-﻿namespace Family.Book.Infrastructure;
+﻿namespace FamilyBook.Infrastructure;
 
 public class Class1
 {

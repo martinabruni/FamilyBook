@@ -1,6 +1,6 @@
-using Family.Book.Domain.Validators;
+using FamilyBook.Domain.Validators;
 
-namespace Family.Book.Business.Validators;
+namespace FamilyBook.Business.Validators;
 
 public abstract class BaseValidator<T> : IValidator<T> where T : class
 {

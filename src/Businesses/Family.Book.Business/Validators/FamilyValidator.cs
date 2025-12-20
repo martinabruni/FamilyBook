@@ -1,16 +1,14 @@
-using Family.Book.Domain.Models;
-using Family.Book.Domain.Validators;
 using FluentValidation;
 
-namespace Family.Book.Business.Validators;
+namespace FamilyBook.Business.Validators;
 
-public class FamilyValidator : BaseValidator<Family.Book.Domain.Models.Family>
+public class FamilyValidator : BaseValidator<Family>
 {
-    public FamilyValidator(Family.Book.Domain.Models.Family instance) : base(instance) { }
+    public FamilyValidator(Family instance) : base(instance) { }
 
-    public override void Validate(Family.Book.Domain.Models.Family instance)
+    public override void Validate(Family instance)
     {
-        var validator = new InlineValidator<Family.Book.Domain.Models.Family>();
+        var validator = new InlineValidator<Family>();
         validator.RuleFor(f => f.Id)
             .NotEmpty();
 
