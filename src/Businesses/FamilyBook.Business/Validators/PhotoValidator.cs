@@ -1,16 +1,15 @@
 using FamilyBook.Domain.Models;
-using FamilyBook.Domain.Validators;
 using FluentValidation;
 
 namespace FamilyBook.Business.Validators;
 
-public class PhotoValidator : BaseValidator<FamilyBook.Domain.Models.Photo>
+public class PhotoValidator : BaseValidator<Photo>
 {
-    public PhotoValidator(FamilyBook.Domain.Models.Photo instance) : base(instance) { }
+    public PhotoValidator(Photo instance) : base(instance) { }
 
-    public override void Validate(FamilyBook.Domain.Models.Photo instance)
+    public override void Validate(Photo instance)
     {
-        var validator = new InlineValidator<FamilyBook.Domain.Models.Photo>();
+        var validator = new InlineValidator<Photo>();
         validator.RuleFor(p => p.Id)
             .NotEmpty();
 
@@ -29,7 +28,7 @@ public class PhotoValidator : BaseValidator<FamilyBook.Domain.Models.Photo>
             .When(p => p.Description != null);
 
         validator.RuleFor(p => p.PublicationDate)
-            .LessThanOrEqualTo(DateTimeOffset.UtcNow.AddMinutes(5))
+            .LessThanOrEqualTo(DateTime.UtcNow.AddMinutes(5))
             .GreaterThanOrEqualTo(p => p.CreatedDate.AddDays(-1));
 
         validator.RuleFor(p => p.LastUpdatedDate)

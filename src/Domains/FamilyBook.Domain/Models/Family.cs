@@ -11,10 +11,10 @@ namespace FamilyBook.Domain.Models;
 public sealed class Family : BaseModel
 {
     public string Name { get; }
-    public DateTimeOffset CreatedDate { get; }
-    public DateTimeOffset LastUpdatedDate { get; }
+    public DateTime CreatedDate { get; }
+    public DateTime LastUpdatedDate { get; }
 
-    public Family(Guid id, string name, DateTimeOffset createdDate, DateTimeOffset lastUpdatedDate)
+    public Family(Guid id, string name, DateTime createdDate, DateTime lastUpdatedDate)
         : base(id)
     {
         Name = name;

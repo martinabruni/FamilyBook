@@ -16,11 +16,11 @@ public sealed class Member : BaseModel
     public Guid FamilyId { get; }
     public string FirstName { get; }
     public string LastName { get; }
-    public DateTimeOffset BirthDate { get; }
-    public DateTimeOffset CreatedDate { get; }
-    public DateTimeOffset LastUpdatedDate { get; }
+    public DateTime BirthDate { get; }
+    public DateTime CreatedDate { get; }
+    public DateTime LastUpdatedDate { get; }
 
-    public Member(Guid id, Guid familyId, string firstName, string lastName, DateTimeOffset birthDate, DateTimeOffset createdDate, DateTimeOffset lastUpdatedDate)
+    public Member(Guid id, Guid familyId, string firstName, string lastName, DateTime birthDate, DateTime createdDate, DateTime lastUpdatedDate)
         : base(id)
     {
         FamilyId = familyId;

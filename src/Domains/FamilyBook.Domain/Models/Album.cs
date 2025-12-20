@@ -13,10 +13,10 @@ public sealed class Album : BaseModel
 {
     public Guid FamilyId { get; }
     public string Name { get; }
-    public DateTimeOffset CreatedDate { get; }
-    public DateTimeOffset LastUpdatedDate { get; }
+    public DateTime CreatedDate { get; }
+    public DateTime LastUpdatedDate { get; }
 
-    public Album(Guid id, Guid familyId, string name, DateTimeOffset createdDate, DateTimeOffset lastUpdatedDate)
+    public Album(Guid id, Guid familyId, string name, DateTime createdDate, DateTime lastUpdatedDate)
         : base(id)
     {
         FamilyId = familyId;

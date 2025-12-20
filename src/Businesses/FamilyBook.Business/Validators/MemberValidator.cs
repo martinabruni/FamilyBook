@@ -1,16 +1,15 @@
 using FamilyBook.Domain.Models;
-using FamilyBook.Domain.Validators;
 using FluentValidation;
 
 namespace FamilyBook.Business.Validators;
 
-public class MemberValidator : BaseValidator<FamilyBook.Domain.Models.Member>
+public class MemberValidator : BaseValidator<Member>
 {
-    public MemberValidator(FamilyBook.Domain.Models.Member instance) : base(instance) { }
+    public MemberValidator(Member instance) : base(instance) { }
 
-    public override void Validate(FamilyBook.Domain.Models.Member instance)
+    public override void Validate(Member instance)
     {
-        var validator = new InlineValidator<FamilyBook.Domain.Models.Member>();
+        var validator = new InlineValidator<Member>();
         validator.RuleFor(m => m.Id)
             .NotEmpty();
 
@@ -30,8 +29,8 @@ public class MemberValidator : BaseValidator<FamilyBook.Domain.Models.Member>
             .WithMessage("LastName must not be empty or whitespace only.");
 
         validator.RuleFor(m => m.BirthDate)
-            .LessThanOrEqualTo(DateTimeOffset.UtcNow)
-            .GreaterThanOrEqualTo(DateTimeOffset.UtcNow.AddYears(-130));
+            .LessThanOrEqualTo(DateTime.UtcNow)
+            .GreaterThanOrEqualTo(DateTime.UtcNow.AddYears(-130));
 
         validator.RuleFor(m => m.LastUpdatedDate)
             .GreaterThanOrEqualTo(m => m.CreatedDate);

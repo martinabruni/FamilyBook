@@ -25,16 +25,16 @@ public sealed class Photo : BaseModel
     public Guid AlbumId { get; }
     public string? Location { get; }
     public string? Description { get; }
-    public DateTimeOffset PublicationDate { get; }
-    public DateTimeOffset CreatedDate { get; }
-    public DateTimeOffset LastUpdatedDate { get; }
+    public DateTime PublicationDate { get; }
+    public DateTime CreatedDate { get; }
+    public DateTime LastUpdatedDate { get; }
     public string OriginalBlobKey { get; }
     public string ThumbnailBlobKey { get; }
     public string ContentType { get; }
     public long SizeBytes { get; }
     public PhotoStatus Status { get; }
 
-    public Photo(Guid id, Guid memberId, Guid albumId, string? location, string? description, DateTimeOffset publicationDate, DateTimeOffset createdDate, DateTimeOffset lastUpdatedDate, string originalBlobKey, string thumbnailBlobKey, string contentType, long sizeBytes, PhotoStatus status)
+    public Photo(Guid id, Guid memberId, Guid albumId, string? location, string? description, DateTime publicationDate, DateTime createdDate, DateTime lastUpdatedDate, string originalBlobKey, string thumbnailBlobKey, string contentType, long sizeBytes, PhotoStatus status)
         : base(id)
     {
         MemberId = memberId;
