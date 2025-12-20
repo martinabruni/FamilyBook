@@ -1,3 +1,5 @@
+using static Family.Book.Domain.Enums;
+
 namespace Family.Book.Domain.Models;
 
 /// <summary>
